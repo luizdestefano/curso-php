@@ -8,4 +8,12 @@ for ($i=1; $i<6; $i++){
   echo $linha.PHP_EOL;
   $linha = "";
 }
+
+//Outra solução
+$linha = "*";
+
+for ($i=0; $i<5; $i++){
+  echo $linha.PHP_EOL;
+  $linha .="*";
+}
 ?>
